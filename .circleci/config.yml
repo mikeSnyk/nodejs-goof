@@ -10,4 +10,5 @@ jobs:
       - run: npm ci
       - snyk/scan:
           fail-on-issues: false
+          severity-threshold: high
 workflows: null
